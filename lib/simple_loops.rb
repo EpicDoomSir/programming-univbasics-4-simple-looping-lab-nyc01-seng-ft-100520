@@ -20,5 +20,6 @@ def return_srting_array(array)
   counter = 0
   while counter < array.size do
     array[counter] = array[counter].to_s
+    counter += 1
   end
 end
