@@ -11,7 +11,8 @@ def loop_message_n_times(message, n)
 end
 
 def output_array(array)
-  
+  array.each |element| do
+    
 end
 
 def return_srting_array
