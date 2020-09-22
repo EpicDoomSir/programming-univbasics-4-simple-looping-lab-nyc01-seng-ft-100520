@@ -16,7 +16,7 @@ def output_array(array)
   end
 end
 
-def return_srting_array(array)
+def return_string_array(array)
   counter = 0
   while counter < array.size do
     array[counter] = array[counter].to_s
